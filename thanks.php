@@ -2,8 +2,6 @@
 $phone = $_POST['user_phone_number'];
 $regex = '/(0|\\+33|0033)[1-9][0-9]{8}/';
 
-var_dump($regex);
-    $errors = [];
 
     if($_SERVER['REQUEST_METHOD'] === 'POST') {
         // nettoyage et validation des données soumises via le formulaire
